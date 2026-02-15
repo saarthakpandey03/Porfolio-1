@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.playwrite-cu-guides-regular {
+  font-family: "Playwrite CU Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 1px;
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Scrollbar thumb (moving bar) */
+::-webkit-scrollbar-thumb {
+  background-color: #12CC8F;   /* green */
+  border-radius: 10px;
+}
+
+/* Hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0fae79;
+}
