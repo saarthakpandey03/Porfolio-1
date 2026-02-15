@@ -17,7 +17,7 @@ const Skills = () => {
              </motion.div>
            
             <motion.div 
-            className='p-10 rounded-2xl h-full bg-[#101826]  flex flex-row gap-9 lg:justify-start sm:justify-center  flex-wrap gap-6 text-2xl font-bold'
+            className='p-10 rounded-2xl h-full bg-[#101826]  flex flex-row gap-9 lg:justify-center sm:justify-center  flex-wrap gap-6 text-2xl font-bold'
             initial={{opacity:0,y: 30}}  
             whileInView={{opacity:1,y:0}}
             transition={{duration:0.7,ease:"easeOut"}}
